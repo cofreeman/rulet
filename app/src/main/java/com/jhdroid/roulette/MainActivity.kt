@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding.activity = this
 
-        val rouletteData = listOf("JhDroid", "Android", "Blog", "IT", "Developer", "Kotlin", "Java", "Happy")
+        val rouletteData = listOf("짜장면", "A", "B", "I", "D", "K", "J", "H")
 
         binding.roulette.apply {
             setRouletteSize(8)
